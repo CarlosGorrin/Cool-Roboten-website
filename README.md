@@ -1,4 +1,4 @@
-# cool_roboten_v1.7 /final\
-Version 1.7 Cool Roboten website
+# cool_roboten_v1.8 /final\
+Version 1.8 Cool Roboten website
 
-Updated 20/04/2016
+Updated 09/06/2016
