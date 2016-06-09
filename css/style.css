@@ -1,22 +1,16 @@
-
-
-body
-{
+body {
 	background: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	position: relative;
 }
-
 html,body {
 	width: 100%;
 	overflow-x: hidden;
 }
-
 svg {
   max-width: 40%;
 }
-
 h1,h2,h3,h4, h5 {
 	font-weight: bold;
 }
@@ -27,8 +21,7 @@ h1,h2,h3,h4, h5 {
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-weight: bold;
-    
+    font-weight: bold;    
 } */
 .heading {
 	font-size: 60px;
@@ -42,38 +35,32 @@ h1,h2,h3,h4, h5 {
 .bold {
 	font-weight: bold;
 }
-
 p {
 	letter-spacing: 0px;
 	line-height: 28px;
   text-align: justify;
 }
-
 #about,
 #team, #contact {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
-
 #about .fa {
 	font-size: 28px;
 	min-width: 34px;
 }
-
 /* nav */
 .custom-navbar {
     background: #404040;
     margin-bottom: 0;
 }
 .custom-navbar .navbar-brand  {
-	color: #ffffff;
 	font-size: 40px;
+  color: #ffffff;
 }
 .custom-navbar .navbar-brand .navbar-toggle {
-    background: #55acee;
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
 }
 .custom-navbar .nav li a {
     color: #ffffff;
@@ -89,10 +76,6 @@ p {
     background: #7b3ce5;
   	transition: all 0.3s ease-in-out;
 }
-.custom-navbar .nav > li > a:focus {
-  	background-color: transparent;
-  	outline: none;
-}
 .custom-navbar .nav li.active > a {
     background-color: #515151;
 }
@@ -102,23 +85,16 @@ p {
 }
 .custom-navbar .navbar-toggle .icon-bar {
     background: #fff;
-    border-color: transparent;
 }
 @media(min-width:768px){
     .custom-navbar {
-            background: #ffffff;
             padding: 14px;
-            border-bottom: 0;
-            background: 0 0;
+            background: transparent;
          }
     .custom-navbar.top-nav-collapse {
-            color: #ffffff;
-            padding: 14px;
-            border-bottom: 1px solid #515151;
             background: #404040;
         }
 }
-
 /* home */
 #home {
   background: url('../images/home-bg.jpg') no-repeat;
@@ -157,7 +133,6 @@ p {
   background: #404040;
   color: #ffffff;
 }
-
 /* about */
 #about .col-md-4 .fa {
   background: #7b3ce5;
@@ -419,7 +394,6 @@ footer {
 @media ( max-width: 994px ) {
   .custom-navbar .navbar-brand {
     font-size: 24px;
-    color: #fff;
   }
   /* #about img {
     padding-top: 40px;
